@@ -1,2 +1,2 @@
 #!/vim/bash
-ls -lt | head
+ls -t | head
