@@ -1,2 +1,2 @@
-#!/vim/bash
+#!/bin/bash
 ls -t | head
