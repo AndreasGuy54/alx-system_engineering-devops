@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Conditional clause' | tr -d 'Cc'
+tr -d '[Cc]'
