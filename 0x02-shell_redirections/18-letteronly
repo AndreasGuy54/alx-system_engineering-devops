@@ -1,2 +1,3 @@
+
 #!/bin/bash
-grep -v '[[:digit:]]' /etc/ssh/sshd_config
+cat /etc/ssh/sshd_config | grep "^[[:upper:]]"
