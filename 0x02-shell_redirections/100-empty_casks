@@ -1,2 +1,2 @@
 #!/bash/bin
-find . -empty -f
+find . -path "*/*" -empty | rev | cut -d'/' -f1 | rev
